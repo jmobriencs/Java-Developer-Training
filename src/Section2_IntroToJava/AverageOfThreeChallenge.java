@@ -7,7 +7,7 @@ import java.util.Scanner;
  * @author john-michael.obrien
  * @since 12/21/22
  */
-public class AverageOfThree {
+public class AverageOfThreeChallenge {
     public static void main (String[] args) {
         Scanner keyboard = new Scanner(System.in);
         double dub1;
