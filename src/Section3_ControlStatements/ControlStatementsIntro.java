@@ -22,7 +22,7 @@ public class ControlStatementsIntro {
         System.out.println(); //add some newline space
 
         for (int i = 1; i <= age; i++) {
-            System.out.println("Happy Birthday, you are " + i + " years old.");
+            System.out.println("Happy Birthday, you are " + i + " years old!");
         }
     }
 }
