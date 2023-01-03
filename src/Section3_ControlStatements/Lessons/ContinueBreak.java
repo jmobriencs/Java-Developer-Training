@@ -1,4 +1,4 @@
-package Section3_ControlStatements;
+package Section3_ControlStatements.Lessons;
 
 /**
  * @author john-michael.obrien

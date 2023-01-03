@@ -1,4 +1,4 @@
-package Section3_ControlStatements;
+package Section3_ControlStatements.Lessons;
 
 import java.util.Random;
 

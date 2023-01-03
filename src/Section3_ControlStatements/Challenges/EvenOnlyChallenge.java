@@ -1,4 +1,4 @@
-package Section3_ControlStatements;
+package Section3_ControlStatements.Challenges;
 
 /**
  * @author john-michael.obrien
@@ -7,7 +7,7 @@ package Section3_ControlStatements;
  * Loop through 0-10 (exclusive, don't include 10), printing out only the even integers using continue statement
  */
 public class EvenOnlyChallenge {
-    public static void main(String[] args) {
+    public static void main (String[] args) {
         int count = 0;
 
         while(count < 10) {

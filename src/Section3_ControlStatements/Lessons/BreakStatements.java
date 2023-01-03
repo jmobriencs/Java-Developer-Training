@@ -1,6 +1,5 @@
-package Section3_ControlStatements;
+package Section3_ControlStatements.Lessons;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 /**
