@@ -24,6 +24,7 @@ public class GuessTheNumberProject {
 
         randomNum = random.nextInt(100) + 1;
 
+        // Sentinel-controlled repetition
         while (!guessedNumber) {
 
             System.out.println("Please enter a number between 1-100 to guess the computer's number: ");
