@@ -27,6 +27,7 @@ public class ArrayLists {
             System.out.println(namesList.get(i));
         }
 
+        // auto unboxing
         numList.add(2);
         numList.add(5);
         numList.add(12);
@@ -36,5 +37,7 @@ public class ArrayLists {
         for (int num : numList) {
             System.out.println(numList.get(num));
         }
+
+
     }
 }
