@@ -12,15 +12,11 @@ import java.util.Stack;
 public class ValidParenthesis {
     public static void main (String[] args) {
         System.out.println(isValid("[]{}()"));
+        System.out.println(isValid("[["));
     }
 
     private static boolean isValid (String s) {
         Stack<Character> stack = new Stack<>();
-        stack.push('a');
-        stack.push('b');
-        stack.push('z');
-        System.out.println(stack.pop());
-
 
         for (char c : s.toCharArray()) {
             if (c == '(')
