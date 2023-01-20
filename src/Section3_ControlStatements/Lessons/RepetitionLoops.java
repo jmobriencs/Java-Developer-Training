@@ -7,7 +7,7 @@ import java.util.Scanner;
  * @since 12/30/22
  */
 public class RepetitionLoops {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
         int count = 0;
         int input;

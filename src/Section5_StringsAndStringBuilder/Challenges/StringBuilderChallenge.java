@@ -7,7 +7,7 @@ package Section5_StringsAndStringBuilder.Challenges;
  * Take the first name and using StringBuilder class replace it with your appropriate title
  */
 public class StringBuilderChallenge {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         StringBuilder sb = new StringBuilder("John-Michael O'Brien");
         sb.replace(0, 12, "Mr.");
         System.out.println(sb);

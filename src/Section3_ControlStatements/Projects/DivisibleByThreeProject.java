@@ -12,7 +12,7 @@ import java.util.Scanner;
  */
 
 public class DivisibleByThreeProject {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
         int numToCheck;
 

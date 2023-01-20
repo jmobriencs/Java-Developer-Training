@@ -8,7 +8,7 @@ import java.util.Scanner;
  * @since 12/21/22
  */
 public class AverageOfThreeChallenge {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
         double dub1;
         double dub2;

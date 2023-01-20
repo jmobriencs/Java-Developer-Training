@@ -7,7 +7,7 @@ package Section5_StringsAndStringBuilder.Challenges;
  * Create three names and compare strings using equalTo and compareTo
  */
 public class StringMethod1Challenge {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         String name1 = "JM O'Brien";
         String name2 = "JM O'Brien";
         String name3 = "JM OBrien";

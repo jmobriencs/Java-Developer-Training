@@ -7,7 +7,7 @@ import java.util.Scanner;
  * @since 12/20/22
  */
 public class KeyboardInput {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
         double michaelDouble;
         double result = 0;

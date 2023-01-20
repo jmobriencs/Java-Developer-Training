@@ -13,7 +13,7 @@ import java.util.Scanner;
  * to hone in on the correct number.
  */
 public class GuessTheNumberProject {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         Random random = new Random();
         Scanner keyboard = new Scanner(System.in);
         int randomNum;

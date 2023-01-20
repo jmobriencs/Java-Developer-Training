@@ -9,7 +9,7 @@ import java.util.Random;
  * Simulate 10 rolls of a standard 6-side die
  */
 public class DiceSimulationChallenge {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         Random random = new Random();
         int roll;
 

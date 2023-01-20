@@ -5,7 +5,7 @@ package MiscPractice;
  * @since 1/16/23
  */
 public class ReverseString {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         char[] s = new char[] {'H', 'e', 'l', 'l', 'o'};
         ReverseString(s);
     }

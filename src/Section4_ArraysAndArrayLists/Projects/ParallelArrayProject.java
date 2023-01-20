@@ -19,7 +19,7 @@ import java.util.Scanner;
  * Do this for each person
  */
 public class ParallelArrayProject {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
         ArrayList<String> nameList = new ArrayList<>();
         ArrayList<Integer> ageList = new ArrayList<>();

@@ -12,7 +12,7 @@ import java.util.ArrayList;
  * Character, Boolean
  */
 public class Wrappers {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         ArrayList<Integer> myArrList = new ArrayList<>();
 
         // Storing a primitive, but java knows to automatic box

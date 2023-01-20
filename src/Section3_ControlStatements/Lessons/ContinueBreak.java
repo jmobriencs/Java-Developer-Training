@@ -5,7 +5,7 @@ package Section3_ControlStatements.Lessons;
  * @since 12/29/22
  */
 public class ContinueBreak {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         int count1 = 0;
         int count2 = 0;
 

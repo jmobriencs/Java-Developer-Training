@@ -14,7 +14,7 @@ import java.util.Scanner;
  * Print out the lowercase version of the last name
  */
 public class NameParserChallenge {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
         String fullName;
         String firstName;

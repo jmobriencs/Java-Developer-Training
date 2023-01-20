@@ -12,7 +12,7 @@ import java.util.Scanner;
  * multiplied by 2
  */
 public class ArraysProject {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
         int[] arr = new int[5];
 

@@ -10,7 +10,7 @@ package Section5_StringsAndStringBuilder.Lessons;
  *  - Has many method sthe String class does not have
  */
 public class StringBuilderMethods {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         StringBuilder sb = new StringBuilder("John O'Brien");
 
         sb.insert(5, "Eugene ");

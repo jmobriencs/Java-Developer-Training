@@ -10,7 +10,7 @@ package Section3_ControlStatements.Lessons;
  * -Repetition (Loops)
  */
 public class ControlStatementsIntro {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         int age = 19;
 
         // 3 Categories of Control Statements

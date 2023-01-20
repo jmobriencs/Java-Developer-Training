@@ -11,7 +11,7 @@ import java.util.Random;
  * In a separate enhanced for loop, print out the elements of the array that you populated
  */
 public class ArrayChallenge {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         Random random = new Random();
         int[] arr1 = new int[10];
 

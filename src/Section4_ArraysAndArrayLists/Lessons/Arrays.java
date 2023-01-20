@@ -8,7 +8,7 @@ package Section4_ArraysAndArrayLists.Lessons;
  * Fixed-size arrays can hold both primitive and reference data types.
  */
 public class Arrays {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         // array itself is a reference type
         //data type can be primitive or reference
         int[] myArray = new int[5];

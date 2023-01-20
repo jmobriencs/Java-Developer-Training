@@ -12,7 +12,7 @@ import java.util.Random;
  * ArrayLists are a type of entity known as generic.
   */
 public class ArrayLists {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         ArrayList<String> namesList = new ArrayList<>();
         ArrayList<Integer> numList = new ArrayList<>();
         Random random = new Random();

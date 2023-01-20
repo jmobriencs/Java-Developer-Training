@@ -11,7 +11,7 @@ import java.util.Scanner;
  * and additional course fee(s) based on the package they selected.
  */
 public class LearningPackagesProject {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
         int packageNum;
         int numCourses;

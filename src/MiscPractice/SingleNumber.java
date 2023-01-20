@@ -13,7 +13,7 @@ public class SingleNumber {
         System.out.println(i);
     }
 
-    public static int singleNumber ( int[] nums) {
+    public static int singleNumber( int[] nums) {
         HashSet<Integer> set = new HashSet<>();
 
         for (int val : nums) {

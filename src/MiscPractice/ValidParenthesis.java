@@ -10,12 +10,12 @@ import java.util.Stack;
  * @since 1/7/23
  */
 public class ValidParenthesis {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         System.out.println(isValid("[]{}()"));
         System.out.println(isValid("[["));
     }
 
-    private static boolean isValid (String s) {
+    private static boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
 
         for (char c : s.toCharArray()) {

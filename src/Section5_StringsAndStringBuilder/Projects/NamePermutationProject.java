@@ -15,7 +15,7 @@ import java.util.Scanner;
  * Since there are 5 first names and five last names for a total of 25 permutations.
  */
 public class NamePermutationProject {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
         ArrayList<String> firstNameList = new ArrayList<>();
         ArrayList<String> lastNameList = new ArrayList<>();

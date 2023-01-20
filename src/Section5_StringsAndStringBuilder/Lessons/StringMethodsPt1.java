@@ -5,7 +5,7 @@ package Section5_StringsAndStringBuilder.Lessons;
  * @since 1/9/23
  */
 public class StringMethodsPt1 {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         String name = "John Baugh";
         String name2 = "John Baugh";
         String name3 = "Rob Percival";

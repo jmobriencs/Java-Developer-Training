@@ -7,7 +7,7 @@ import java.util.Scanner;
  * @since 12/29/22
  */
 public class SelectionControlStatements {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
 
         System.out.println("Welcome to the Folsom Pub and Grille.");

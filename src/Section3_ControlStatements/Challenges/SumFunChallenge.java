@@ -12,7 +12,7 @@ import java.util.Scanner;
  * Print out the sum after the loop
  */
 public class SumFunChallenge {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
         int input;
         int sum = 0;
