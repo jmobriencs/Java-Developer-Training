@@ -17,7 +17,7 @@ package Section6_Methods.Lessons;
  * Method overloading:
  *  Same method name, different parameters
  */
-public class MethodsPt2_Overloading {
+public class MethodOverloading {
     public static void main(String[] args) {
         System.out.println(getResult(4));
         System.out.println(getResult(4, 8));

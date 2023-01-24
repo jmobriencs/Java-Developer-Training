@@ -10,7 +10,7 @@ package Section6_Methods.Lessons;
  * When you call the method an argument is passed in.
  * In the method the argument becomes the parameter.
  */
-public class MethodsPt1 {
+public class MethodBasics {
     public static void main(String[] args) {
         printHello();
         printNum(24); // 24 is the argument passed in
