@@ -26,6 +26,18 @@ public class House {
 
 
     //Instance methods
+    public void setNumStories(int numStories) {
+        this.numStories = numStories;
+    }
+
+    public void setNumWindows(int numWindows) {
+        this.numWindows = numWindows;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
     public int getNumStories() {
         return numStories;
     }
@@ -38,15 +50,5 @@ public class House {
         return color;
     }
 
-    public void setNumStories(int numStories) {
-        this.numStories = numStories;
-    }
 
-    public void setNumWindows(int numWindows) {
-        this.numWindows = numWindows;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
-    }
 }
