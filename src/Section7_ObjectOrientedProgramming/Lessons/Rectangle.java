@@ -3,19 +3,38 @@ package Section7_ObjectOrientedProgramming.Lessons;
 /**
  * @author john-michael.obrien
  * @since 2/5/23
+ *
+ * Encapsulation: We combine fields and methods
  */
 public class Rectangle {
     //Instance fields
     private double length;
     private double width;
-    private int numRectangles;
+
+    private static int numRectangles; // exists when no object rectangles exist, is shared when they do
+
 
     //Constructors
-    public void Rectangle() {}
+    public Rectangle() {
+        this(1.0, 1.0);
+    }
 
-    public void Rectangle(double length, double width) {
+    public Rectangle(double length, double width) {
         this.length = length;
         this.width = width;
+        numRectangles++;
+    }
+
+    // Instance methods
+    public double getLength() {
+        return length;
+    }
+    public double getWidth() {
+        return width;
+    }
+
+    public static int getNumRectangles() {
+        return numRectangles;
     }
 
     public void setLength(double length) {
@@ -30,14 +49,8 @@ public class Rectangle {
         return length * width;
     }
 
-    public double getLength() {
-        return length;
-    }
-    public double getWidth() {
-        return width;
-    }
-
-    public int getNumRectangles() {
-        return numRectangles;
+    // Challenge add a perimeter method
+    public double permimeter() {
+        return length * 2 + width * 2;
     }
 }

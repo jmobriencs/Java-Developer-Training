@@ -5,7 +5,7 @@ package Section7_ObjectOrientedProgramming.Lessons;
  * @since 2/5/23
  */
 public class House {
-    //Instance fields
+    // Instance fields
     private int numStories;
     private int numWindows;
     private String color;
@@ -17,7 +17,7 @@ public class House {
         color = "gray";
     }
 
-    //parameterized ctor
+    // parameterized ctor
     public House(int numStories, int numWindows, String color) {
         this.numStories = numStories;
         this.numWindows = numWindows;
@@ -25,19 +25,7 @@ public class House {
     }
 
 
-    //Instance methods
-    public void setNumStories(int numStories) {
-        this.numStories = numStories;
-    }
-
-    public void setNumWindows(int numWindows) {
-        this.numWindows = numWindows;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
-    }
-
+    // Instance methods
     public int getNumStories() {
         return numStories;
     }
@@ -50,5 +38,15 @@ public class House {
         return color;
     }
 
+    public void setNumStories(int numStories) {
+        this.numStories = numStories;
+    }
 
+    public void setNumWindows(int numWindows) {
+        this.numWindows = numWindows;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
 }
