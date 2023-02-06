@@ -42,7 +42,6 @@ public class BankAccount {
     }
 
     public String getOwner() {
-
         return owner;
     }
 
