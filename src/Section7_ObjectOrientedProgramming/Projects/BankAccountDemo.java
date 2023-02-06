@@ -20,15 +20,14 @@ public class BankAccountDemo {
         if (deposit > 0) {
             System.out.println("Please enter withdraw amount:");
             bobsAcc.withdraw(keyboard.nextInt());
-            System.out.println();
         }
-        bobsAcc.getBalance();
+        System.out.println("Final balance for " + bobsAcc.getOwner() + " is " + bobsAcc.getBalance() + " dollars.\n");
 
         System.out.println("Account owner is: " + myAcc.getOwner() + "\n");
         myAcc.deposit(0);
         myAcc.deposit(30);
         myAcc.withdraw(145);
         myAcc.withdraw(30);
-        myAcc.getBalance();
+        System.out.println("Final balance for " + myAcc.getOwner() + " is " + myAcc.getBalance() + " dollars.\n");
     }
 }
