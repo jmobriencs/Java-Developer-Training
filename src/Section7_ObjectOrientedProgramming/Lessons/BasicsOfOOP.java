@@ -13,6 +13,10 @@ public class BasicsOfOOP {
          *  This forms encapsulation
          *  Three primary principles of OOP:
          *      Encapsulation, inheritance, and polymorphism
+         *
+         *  In this section, we will focus mainly on Encapsulation:
+         *      Bundles fields and methods in objects, which are made from classes.
+         *      UML class diagrams help us understand the design of a class.
          */
     }
 }
