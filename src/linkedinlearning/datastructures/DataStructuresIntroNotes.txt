@@ -1,0 +1,6 @@
+Number of things to consider when choosing a data structure:
+-how many items are in the list? is that even known?
+-allow duplicates or no duplicates allowed?
+-order of elements. does order matter?
+-performance of data structure (time complexity)
+-memory of the data structure (space complexity)
