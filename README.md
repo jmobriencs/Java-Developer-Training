@@ -4,3 +4,4 @@ O'Reilly:
 LinkedIn Learning: 
 -Java Essential Training: Syntax and Structure by Angie Jones (linkedin cert received mar 2022)
 -Java: Data Structures by Beth Palmer (linkedin cert received mar 2022)
+
