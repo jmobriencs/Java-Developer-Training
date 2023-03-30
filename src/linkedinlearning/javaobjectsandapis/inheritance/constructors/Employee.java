@@ -1,4 +1,4 @@
-package linkedinlearning.javaobjectsandapis.inheritance;
+package linkedinlearning.javaobjectsandapis.inheritance.constructors;
 
 /**
  * @author john-michael.obrien
