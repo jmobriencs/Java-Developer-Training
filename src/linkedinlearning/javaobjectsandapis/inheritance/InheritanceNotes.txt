@@ -1,0 +1,31 @@
+************************* Section 1 - Inheritance ***************************
+
+ Contructors:
+  -A superclass's constructor is run before the subclass's constructor
+  -An explicit call can be made to the supeclass's constructor from on of the subclass's constructors by using super()
+  -An explicit call to the superclass's constructor must be the first statement in the subclass's constructor
+  -If the superclass does not have a default constructor, the subclass must explicitly call one of its other constructors
+
+ Chaining Inheritance:
+  -Java DOES NOT support multiple inheritance, but, you can chain inheritance and classes can point to a parent, which points to another parent etc.
+
+ Limiting Access in Inheritance:
+  -Constructors are not technically members of the class and are not inherited
+  -All public and protected methods and fields in a superclass are inherited by its superclasses
+  -Private methods and fields are not
+  -Final methods are inherited but cannot be overridden
+  -For overridden methods, can only lessen strictness of access modifiers i.e. can go from protected -> public but can go public -> protected (aka cannot make more strict)
+  -Access modifiers enable superclasses to control which members can be shared to their subclasses
+
+  Sealed Classes:
+   -Restrict which other classes may extend them
+   -Every permitted subclass must already exist and must explicitly extend the sealed class
+   -Every permitted subclass is required to declare itself as sealed, non-sealed, or final
+
+
+
+
+
+
+
+
