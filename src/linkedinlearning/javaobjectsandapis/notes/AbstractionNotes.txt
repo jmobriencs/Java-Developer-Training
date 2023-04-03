@@ -1,0 +1,17 @@
+************************* Section 3 - Abstraction ***************************
+
+ Abstraction:
+  -Something that exists in theory, but does not have a concrete existence
+  -Is not designed to be instantiated
+  -Are implemented by their subclasses
+  -Abstract methods have not body, only signature is defined (not designed to be run as is)
+  -Designed to be overwritten by a subclass
+  -Think of it as a standard template
+  -Excellent for setting standards for implementations of related concepts
+
+  Key Points:
+   -Abstract classes and methods are templates that are meant to be implemented by their subclasses
+   -Classes and methods are declared abstract by using the abstract reserved work
+   -If a subclass inherits from an abstract class, it must implement its abstract methods or the class itself must be declared as abstract
+   -Abstract classes cannot be instantiated, only to be used as a superclass
+
