@@ -1,4 +1,4 @@
-package linkedinlearning.javaobjectsandapis.inheritance.Challenge;
+package linkedinlearning.javaobjectsandapis.section1_inheritance.Challenge;
 
 /**
  * @author john-michael.obrien

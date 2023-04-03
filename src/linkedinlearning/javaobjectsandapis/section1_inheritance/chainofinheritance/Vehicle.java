@@ -1,4 +1,4 @@
-package linkedinlearning.javaobjectsandapis.inheritance.chainofinheritance;
+package linkedinlearning.javaobjectsandapis.section1_inheritance.chainofinheritance;
 
 /**
  * @author john-michael.obrien

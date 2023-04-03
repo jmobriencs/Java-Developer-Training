@@ -1,4 +1,4 @@
-package linkedinlearning.javaobjectsandapis.polymorphism;
+package linkedinlearning.javaobjectsandapis.section2_polymorphism;
 
 /**
  * @author john-michael.obrien

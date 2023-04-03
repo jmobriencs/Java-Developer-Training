@@ -1,4 +1,4 @@
-package linkedinlearning.javaobjectsandapis.inheritance.overridingandoverloading;
+package linkedinlearning.javaobjectsandapis.section1_inheritance.overridingandoverloading;
 
 /**
  * @author john-michael.obrien
