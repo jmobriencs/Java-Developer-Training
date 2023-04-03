@@ -1,0 +1,10 @@
+************************* Section 2 - Polymorphism ***************************
+
+ Polymorphism:
+  -The ability to take multiple forms
+
+ Type vs Instance:
+  -An object can have a superclass type and a subclass instance
+
+ Overridden Methods:
+  -If a method is overridden by the subclass, the polymorphic object will execute the overridden method at runtime
