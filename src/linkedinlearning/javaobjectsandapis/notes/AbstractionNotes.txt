@@ -4,7 +4,7 @@
   -Something that exists in theory, but does not have a concrete existence
   -Is not designed to be instantiated
   -Are implemented by their subclasses
-  -Abstract methods have not body, only signature is defined (not designed to be run as is)
+  -Abstract methods have no body, only signature is defined (not designed to be run as is)
   -Designed to be overwritten by a subclass
   -Think of it as a standard template
   -Excellent for setting standards for implementations of related concepts

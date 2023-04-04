@@ -1,0 +1,33 @@
+************************* Section 4 - Interfaces ***************************
+
+ Interface:
+  -A stateless construct consisting of abstract behaviors to be implemented by other classes (not extended)
+  -Similar to abstract classes, but all fields are final, no constructor, and do not have state
+  -Any field defined in an interface must be constant (static/final)
+  -Static: can be accessed from any other class without object instantiation
+  -Final: Value assigned at initialization cannot be changed
+  -Constants are written in all caps
+  -Fields are public, static, and final implicitly
+
+  -Classes can only extend one class, but can implement multiple interfaces. This is how multiple inheritance is achieved in Java.
+  -To implement multiple interfaces, use a comma delimited list of all the interfaces one wishes to implement in the class header
+  -If a class implements an interface(s) it must provide implementation of ALL abstract methods from the interface(s)
+  -When implementing interfaces that have the same method signature, you only need to implement once (unless return type is different)
+  -Declaring a method as default does not require classes implementing the interface to instantiate/override the method / default methods are not final
+
+ Methods Allowed in Interfaces:
+  -abstract
+  -default
+  -static
+  ^static methods are not inherited in implementing classes. can only be accessed from interface itself
+  i.e. Product.myStaticMethod();
+
+ Key Points/Summary:
+  -Interfaces cannot be instantiated (i.e. Interface interface = new InterFace(); won't work)
+  -Can be implemented by classes and extended by other interfaces
+  -Any class that implements an interface must instantiate all of its methods, or else declare itself as an abstract class
+  -By default methods in an interface are public and abstract
+  -In addition to abstract, interfaces can also have default and static methods as well
+
+
+
