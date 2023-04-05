@@ -1,0 +1,32 @@
+************************* Section 5 - Data Structures ***************************
+
+ Collections:
+  -Data structures that hold a group of objects
+
+ Elements within a Collection:
+  -Unique vs duplication
+  -Ordered vs unordered
+
+ Java provides a collections framework which consists of interfaces, classes, and methods to store and manipulate these group of objects.
+ All of the interfaces and classes of the collections framework can be found in the java.utils package.
+ Collection itself is an interface and is the root of the hierarchy.
+
+ Most common are Set, List, Queue, and Map
+
+ Set:
+  -Collection of unique unordered elements
+
+ List:
+  -Collection of ordered elements that can be accessed by position. Can contain duplicates.
+
+ Queue:
+  -Collection of ordered elements that are processed in the order they are added
+  FIFO (First In First Out)
+
+ Map:
+  -Collection of unordered unique key-value pairs
+
+ java.util.Collections
+  -A class that contains algorithms for working with collections
+
+  Ex. binarySearch, copy, frequency, reverse, shuffle, sort
