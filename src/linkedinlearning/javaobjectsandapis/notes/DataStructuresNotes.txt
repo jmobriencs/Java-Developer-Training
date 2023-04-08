@@ -30,3 +30,5 @@
   -A class that contains algorithms for working with collections
 
   Ex. binarySearch, copy, frequency, reverse, shuffle, sort
+
+ Iterator works on Sets, List, and Queues bc they inherit from the collections interface. Does not work on Map. Have to use entry set.
