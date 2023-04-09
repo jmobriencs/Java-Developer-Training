@@ -1,8 +1,6 @@
 package linkedinlearning.javaobjectsandapis.section5_datastructures;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 /**
  * @author john-michael.obrien
@@ -26,9 +24,12 @@ public class Sets {
         fruits.remove("lemon");
         System.out.println("Num of elements after removing lemon: " + fruits.size());
 
-        // Immutable set. Cannot add or remove but is a fast way to initialize a set of elements.
+        // Fast way to initialize a set of elements.
         Set<String> moreFruits = new HashSet<>(Arrays.asList("peach", "pear", "cherry"));
-        System.out.println(moreFruits.size());
+        Set<String> immutableFruits = Collections.unmodifiableSet(moreFruits); // makes set immutable (but isn't truly immutable, see below)
+        System.out.println(immutableFruits.size());
+        moreFruits.add("orange");
+        System.out.println(immutableFruits.size()); // changing the original hashset will also change the immutable set (funny!)
 
 
         // Immutable set. Cannot add or remove but is a fast way to initialize a set of elements.

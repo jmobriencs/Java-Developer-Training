@@ -36,7 +36,7 @@ public class Lists {
 
 
         // Immutable list
-        List<String> moreFruit = new ArrayList<>(Arrays.asList("cherries", "blueberry", "strawberry"));
+        List<String> moreFruit = Arrays.asList("cherries", "blueberry", "strawberry");
         System.out.println(moreFruit);
 
         // Java 9 or higher immutable list

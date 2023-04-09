@@ -1,0 +1,15 @@
+************************* Section 6 - Functional Programming ***************************
+
+ Functional Interfaces:
+  - An interface with just one abstract method at can be implemented by lambda expressions or method references
+
+ Java is an OOP programming language, but has java.util.function which hosts several functional interfaces:
+  -includes: Consumer, Supplier, Predicate, Function, UnaryOperator, etc.
+
+ Can also create your own functional interface using @FunctionalInterface annotation before interface header.
+  -Can only include 1 abstract method, but can include a static or default methods.
+
+ Streams:
+  -A stream is a collection of elements from a data source
+  -A stream does not store elements like a collection does, but instead allows you to perform operations on the data w/out modifying original source
+  -java.util.stream package contains interfaces and classes to perform these operations
