@@ -13,3 +13,6 @@
   -A stream is a collection of elements from a data source
   -A stream does not store elements like a collection does, but instead allows you to perform operations on the data w/out modifying original source
   -java.util.stream package contains interfaces and classes to perform these operations
+  -Stream operations can be intermediate or terminal.
+   -Intermediate: perform the operation and return the resulting stream (can perform more operations on stream if you choose)
+   -Terminal: close the stream and return result of the operation. can be void or a value. no more operations can be performed on the stream.
