@@ -1,0 +1,23 @@
+************************* Section 7 - Exceptions ***************************
+
+ -Try/Catch used to handle exceptions
+ -Stack Trace: An interactive log of method calls that led to a thrown exception
+
+ Two Categories of Exceptions:
+  -Checked: Exceptions that are verified by the compiler before the code is executed. Must be declared in the method's signature.
+  -Unchecked: Exceptions that are not verified by the compiler. Runtime exception and all of its subclasses are considered unchecked exceptions.
+              Can also choose to catch unhandled exceptions if you choose but not required.
+
+ Multiple Exceptions:
+  -Polymorphism (i.e. use Exception e instead of IOException e if you don't know what errors it will throw)
+  -A series of catch block
+  -A single catch block that catches multiple exceptions
+
+ Finally:
+  -When an exception is thrown, files are not properly closed. A finally block is useful for executing code that ALWAYS will be run no matter what.
+
+ Try with resources:
+  -Allows you to automatically close resources after the execution of a try block
+  -Only works with closeable/autoclosable interfaces (i.e. scanner/printwriter)
+
+
